@@ -24,7 +24,7 @@ The profileImageUrl is not required
 ### If you want to create messages you have to make POST requests at:
 [YOUR IP]/api/users/[user id]/messages
 Your request should be like this.
-localhost:8081/api/users/61718798f4a3b0bd32bc484b/messages text=hello there
+localhost:8081/api/users/[user id]/messages text=hello there
 The profileImageUrl is not required
 To make succefull request you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
 
@@ -40,6 +40,6 @@ To make succefull request you have to be authenticated this is achieved by using
 ### If you want to delete messages you have to make DELETE requests at:
 [YOUR IP]/api/users/[user id]/messages/[message id]
 Your request should be like this.
-localhost:8081/api/users/61718798f4a3b0bd32bc484b/messages text=hello there
+localhost:8081/api/users/[user id]/messages/[message_id] text=hello there
 The profileImageUrl is not required
 To make succefull request you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
