@@ -25,7 +25,7 @@ http://locahost:8081/api/auth/signin email=user1@email.com password=12345
 Your request should be like this.
 localhost:8081/api/users/[user id]/messages text=hello there
 
-To make succefull request you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
+To make succefull requests you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
 
 ## Read Messages
 ### If you want to read messages you have to make GET requests at:
@@ -33,7 +33,7 @@ To make succefull request you have to be authenticated this is achieved by using
 Your request should be like this.
 localhost:8081/api/messages/
 
-To make succefull request you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
+To make succefull requests you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
 
 ## Delete Messages
 ### If you want to delete messages you have to make DELETE requests at:
@@ -41,4 +41,4 @@ To make succefull request you have to be authenticated this is achieved by using
 Your request should be like this.
 localhost:8081/api/users/[user id]/messages/[message_id] text=hello there
 
-To make succefull request you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
+To make succefull requests you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
