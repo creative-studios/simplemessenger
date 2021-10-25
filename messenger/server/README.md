@@ -18,14 +18,13 @@ The profileImageUrl is not required
 [YOUR IP]/api/auth/signin
 Your request should be like this.
 http://locahost:8081/api/auth/signin email=user1@email.com password=12345
-The profileImageUrl is not required
 
 ## Create Messages
 ### If you want to create messages you have to make POST requests at:
 [YOUR IP]/api/users/[user id]/messages
 Your request should be like this.
 localhost:8081/api/users/[user id]/messages text=hello there
-The profileImageUrl is not required
+
 To make succefull request you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
 
 ## Read Messages
@@ -33,7 +32,7 @@ To make succefull request you have to be authenticated this is achieved by using
 [YOUR IP]/api/messages
 Your request should be like this.
 localhost:8081/api/messages/
-The profileImageUrl is not required
+
 To make succefull request you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
 
 ## Delete Messages
@@ -41,5 +40,5 @@ To make succefull request you have to be authenticated this is achieved by using
 [YOUR IP]/api/users/[user id]/messages/[message id]
 Your request should be like this.
 localhost:8081/api/users/[user id]/messages/[message_id] text=hello there
-The profileImageUrl is not required
+
 To make succefull request you have to be authenticated this is achieved by using bearer token authentication. We use the token that has been stored in the database for every user.
