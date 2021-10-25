@@ -1,0 +1,229 @@
+body {
+    background-color: #dfdfdf;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+  margin-bottom: 1rem;
+
+}
+.navbar a{
+  cursor: pointer;
+}
+.navbar-brand >img{
+  
+  width:70px;
+  margin-bottom: 40px;
+  margin-left:2rem;
+  /* margin-right: 5px; */
+  border-radius: 50%;
+}
+/* .nav.navbar-nav.navbar-right{
+
+} */
+
+.nav.navbar-right > .btn.btn-primary{
+  margin: 10px;
+  background: rgba(105, 60, 8,0.8);
+  border: 0px;
+  box-shadow: 0px 2px 4px black;
+}
+.nav.navbar-right > .btn.btn-primary:hover{
+  margin-top: 12px;
+  height:35px;
+  /* margin: 10px; */
+  text-decoration: underline;
+  background: rgba(109, 66, 17, 0.8);
+  box-shadow: 0px 3px 8px black;
+}
+
+.nav.navbar-right{
+  margin:0rem 0.5rem;
+  margin-bottom: 30px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  margin-right:20px;
+}
+/* .nav.navbar-nav{
+  margin:0rem 0.5rem;
+  width:100px;
+  text-align: center;
+  margin-bottom: 30px;
+  
+} */
+/* .onboarding{
+  
+  box-shadow: 2px 2px 10px solid black; 
+
+} */
+.onboarding>.navbar{
+  background-color:rgba(114, 69, 18, 0.7);
+  /* background-size: 100% 100%; */
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  /* box-shadow: 0px 0px 10px  black; */
+  box-shadow: 0px 3px 10px  rgb(66, 66, 66);
+}
+
+
+
+.home-hero{
+  width: 100vw;
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: -1;
+  /* margin-top: 20px; */
+  /* background: rgb(0, 0, 0); */
+}
+
+.home-hero > .btn.btn-primary{
+  margin: 10px;
+  background: rgba(105, 60, 8,0.8);
+  border: 0px;
+  box-shadow: 0px 2px 4px black;
+}
+.home-hero > .btn.btn-primary:hover{
+  margin-top: 12px;
+  height:35px;
+  text-decoration: underline;
+  background: rgba(109, 66, 17, 0.8);
+  box-shadow: 0px 3px 8px black;
+}
+.row.justify-content-md-center.text-center button{
+  margin: 10px;
+  background: rgba(105, 60, 8,0.8);
+  border: 0px;
+  box-shadow: 0px 2px 4px black;
+}
+
+
+
+.row{
+  justify-content: center;
+}
+#messages{
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+ 
+}
+#messages .list-group-item{
+  display: flex;
+  align-items: center;
+  padding: 7px 20px 12px;
+  background:rgb(121, 106, 89) ;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgb(56, 56, 56);
+  bottom: 0px;
+  top:0px;
+ 
+  transition: all 200ms;
+}
+
+#messages .list-group-item:hover{
+ 
+  bottom: 2px;
+  top:2px;
+  box-shadow: 0px 4px 10px rgb(46, 46, 46);
+}
+
+.message-area{
+  margin-left:20px;
+  
+}
+.message-area .header{
+  display: flex;
+}
+.message-area p{
+  color:white;
+  text-shadow: 0px 2px 10px black;
+  
+}
+.message-area .header p{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  color:wheat;
+  text-shadow: 0px 0px 10px black;
+}
+.message-area .header a{
+  color: rgb(201, 201, 201);
+  text-decoration: none;
+}
+.message-area .header a:hover{
+  color: rgb(216, 216, 216);
+  text-decoration: underline;
+}
+
+#messages:not(.no-hover) .list-group-item:hover{
+  background-color: rgba(109, 66, 17,0.7);
+}
+
+.panel-body{
+  /* background-color: black; */
+  
+  display: flex;
+  flex-direction: column;
+
+  justify-items: center;
+  width:200px;
+  height: auto;
+
+  border-radius: 25%;
+  background: rgb(121, 106, 89);
+  box-shadow: 0px 4px 6px rgb(107, 107, 107);
+  font-size: 25px;
+  border: 1px solid rgb(80, 57, 32);
+}
+
+
+
+.panel-body p{
+  /* background-color: rgba(107, 107, 107,1); */
+  /* border-radius:50%; */
+  border-radius: 25px;
+  text-align: center;
+
+}
+.panel-body img{
+  border-top-right-radius:29.2%;
+  border-top-left-radius:29.2%;
+}
+
+
+.nav.navbar-nav.navbar-right a{
+  margin: 4px;
+  background: rgba(105, 60, 8,0.8);
+  border: 2px solid rgba(105, 60, 8,0.8) ;
+  box-shadow: 0px 2px 4px black;
+  color:white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.nav.navbar-nav.navbar-right a:hover{
+margin-top: 12px;
+height:35px;
+text-decoration: underline;
+
+background: rgba(109, 66, 17, 0.8);
+box-shadow: 0px 3px 8px black;
+}
+
+.timeline-image{
+  border-radius: 25%;
+  border:1px solid black;
+  box-shadow:  0px 0px 10px rgb(43, 38, 31);
+  margin:2px;
+}
