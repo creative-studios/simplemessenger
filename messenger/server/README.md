@@ -5,5 +5,4 @@ To run the server first of all you will need to have Nodejs installed to your sy
 ### node index OR nodemon.
 
 # TESTING
-
 ## Create Users Accounts
