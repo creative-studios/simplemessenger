@@ -10,13 +10,13 @@ node index OR nodemon.
 ### If you want to create users you have to make POST requests at:
 [YOUR IP]/api/auth/signup
 Your request should be like this.
-http://locahost:8081/api/auth/signup name=user1@email.com username=user1 password=12345 profileImageUrl=[some_url_]
-The profileImageUrl is not required
+http://locahost:8081/api/auth/signup email=user1@email.com username=user1 password=12345 profileImageUrl=[some_url_]
+#### The profileImageUrl is not required
 
 ### If you want to signin users you have to make POST requests at:
 [YOUR IP]/api/auth/signup
 Your request should be like this.
-http://locahost:8081/api/auth/signup name=user1@email.com username=user1 password=12345 profileImageUrl=[some_url_]
+http://locahost:8081/api/auth/signin email=user1@email.com username=user1 password=12345 profileImageUrl=[some_url_]
 The profileImageUrl is not required
 
 ### If you want to see users messages you have to make GET requests at:
